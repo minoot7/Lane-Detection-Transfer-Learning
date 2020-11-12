@@ -59,7 +59,7 @@ In this project, the PINet lane detection model has been re-trained with TuSimpl
 
 | Accuracy | FP   | FN   |
 | -------- | ---- | ---- |
-| 96.75%   |0.030 |0.020 |
+| 0.851%   |0.151 |0.170 |
 
 ![Accuracy Trend](Graph/Picture1.png)
 
@@ -68,7 +68,9 @@ The trend below also shows how the training improved within each epoch.
 ![Epoch Improvement Visulization](Graph/improvement.png)
 
 
-The images below are the final result of testing the model on the unlabeled dataset (Images of Maryland roads) and also the attached link is the video from route MD3 in Anne Arundel County. 
+I tested this model on the unlabeled dataset (Images of Maryland roads) and the video that I took with my iphone from route MD3 in Anne Arundel County. Below please find the attached demo video of my project:
+
+![video Visulization](empty)
 
 ### Future Work
 Expanding the model to detect even more items at the same time would be very useful for autonomous transportation system. Detecting the lane line markings, vehicles and pedestrian at the same time is a great task for future of , lane, object detection and image segmentation. 
