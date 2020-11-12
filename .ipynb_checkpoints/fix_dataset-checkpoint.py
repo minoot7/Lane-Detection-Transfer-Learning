@@ -1,19 +1,28 @@
+#########################################################################
+##
+##  Data loader source code for TuSimple dataset
+##
+#########################################################################
+
+
 import math
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
+#from skimage.transform import rotate as rotate_
 import json
 import random
 from copy import deepcopy
 from parameters import Parameters
 
 
+#########################################################################
 ## Data loader class
-
+#########################################################################
 class Generator(object):
-
+    ################################################################################
     ## initialize (load data set from url)
-
+    ################################################################################
     def __init__(self):
         self.p = Parameters()
 

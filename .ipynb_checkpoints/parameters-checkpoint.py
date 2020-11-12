@@ -1,3 +1,8 @@
+#############################################################################################################
+##
+##  Parameters
+##
+#############################################################################################################
 import numpy as np
 
 class Parameters():
@@ -19,18 +24,18 @@ class Parameters():
     threshold_instance = 0.08
 
     #loss function parameter
-    K1 = 1.0                     
+    K1 = 1.0                     #  ####################################
     K2 = 2.0
     constant_offset = 0.2
-    constant_exist = 1.0 
-    constant_nonexist = 1.0
+    constant_exist = 1.0 #2.0#1.0    #8
+    constant_nonexist = 1.0#3.0
     constant_angle = 1.0
     constant_similarity = 1.0
     constant_attention = 0.1
-    constant_alpha = 0.5 
+    constant_alpha = 0.5 #in SGPN paper, they increase this factor by 2 every 5 epochs
     constant_beta = 0.5
     constant_l = 1.0
-    constant_lane_loss = 1.0  
+    constant_lane_loss = 1.0  #10  ######################################
     constant_instance_loss = 1.0
 
     #data loader parameter

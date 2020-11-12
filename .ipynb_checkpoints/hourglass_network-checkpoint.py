@@ -1,9 +1,17 @@
+#########################################################################
+##
+## Structure of network.
+##
+#########################################################################
 import torch
 import torch.nn as nn
 from util_hourglass import *
 
+####################################################################
+##
 ## lane_detection_network
-
+##
+####################################################################
 class lane_detection_network(nn.Module):
     def __init__(self):
         super(lane_detection_network, self).__init__()
