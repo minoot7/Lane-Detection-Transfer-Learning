@@ -1,5 +1,5 @@
 ## Lane Detection with Deep Learning
-![Accuracy Trend](Graph/result_34500_tensor(1.8018).png)
+![A](Graph/result_34500_tensor(1.8018).png)
 ### Project Overview
 
 When a human drive a car, the most common task is to keep the car in the traffic lane. As long as the driver has not been distracted while driving, this task is easy and possible for someone with basic training. On the other hand, for computers this task, keeping the car between its lane’s lines, is not as easy as human.
@@ -59,9 +59,16 @@ In this project, the PINet lane detection model has been re-trained with TuSimpl
 
 | Accuracy | FP   | FN   |
 | -------- | ---- | ---- |
-| 96.75%   |0.0310|0.0250|
+| 96.75%   |0.030 |0.020 |
 
 ![Accuracy Trend](Graph/Picture1.png)
+
+The trend below also shows how the training improved within each epoch.
+
+![Epoch Improvement Visulization](Graph/improvement.png)
+
+
+The images below are the final result of testing the model on the unlabeled dataset (Images of Maryland roads) and also the attached link is the video from route MD3 in Anne Arundel County. 
 
 ### Future Work
 Expanding the model to detect even more items at the same time would be very useful for autonomous transportation system. Detecting the lane line markings, vehicles and pedestrian at the same time is a great task for future of , lane, object detection and image segmentation. 
