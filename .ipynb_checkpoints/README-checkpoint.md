@@ -70,7 +70,7 @@ The trend below also shows how the training improved within each epoch.
 
 I tested this model on the unlabeled dataset (Images of Maryland roads) and the video that I took with my iphone from route MD3 in Anne Arundel County. Below please find the attached demo video of my project:
 
-![video Visulization](empty)
+https://drive.google.com/file/d/1SEuysTpOnVurX3gUyItQLAW-Vhs3m5sI/view?usp=sharing
 
 ### Future Work
 Expanding the model to detect even more items at the same time would be very useful for autonomous transportation system. Detecting the lane line markings, vehicles and pedestrian at the same time is a great task for future of , lane, object detection and image segmentation. 
